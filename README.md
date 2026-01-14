@@ -1,16 +1,65 @@
-# React + Vite
+# 🍔 Hamburgueria Artesanal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido em **React** com foco em design moderno,
+componentização e responsividade. A aplicação simula o site
+institucional de uma hamburgueria artesanal, destacando seus
+diferenciais e produtos.
 
-Currently, two official plugins are available:
+## Projeto online:
+https://johnnysousa1020.github.io/burgerhouse-react/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Sobre o projeto
+Este projeto foi criado com o objetivo de praticar:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Estruturação de componentes em React
+- Organização de pastas
+- Estilização com CSS puro
+- Responsividade para diferentes dispositivos
+- Publicação no GitHub Pages
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⭐ Funcionalidades
+
+- Header com navegação
+- Seção Hero
+- Seção Sobre
+- Carrossel de hambúrgueres
+- Seção de destaques (Why Us)
+- Footer informativo
+- Layout totalmante responsivo
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📦 Como rodar o projeto localmente
+
+### Instale as dependências
+npm install
+
+### Rode o projeto
+npm run dev
+
+---
+
+## 🎯 Objetivo
+
+Criar um site moderno e responsivo para uma hamburgueria
+artesanal, utilizando boas práticas de desenvolvimento
+front-end.
+
+---
+
+## Autor
+
+Johnny Sousa - Desenvolvedor Front-End
