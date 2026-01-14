@@ -1,0 +1,45 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #111;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+}
+
+.logo{
+    font-size: 2rem;
+    color: #ffb703;
+    font-weight: bold;
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav a:hover{
+    color: #ffb703;
+}
+
+@media (max-width: 500px){
+    .container{
+        flex-direction: column;
+        gap: 15px;
+    }
+}

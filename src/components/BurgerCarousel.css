@@ -1,0 +1,85 @@
+.burger-section{
+    padding: 80px 20px;
+}
+
+.burger-section h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.burger-carousel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.carousel-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px;
+}
+
+.carousel-container::-webkit-scrollbar{
+    display: none;
+}
+
+.arrow{
+    background: #111;
+    color: #fff;
+    border: none;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.arrow:hover{
+    background: #e63946;
+}
+
+.arrow.left{
+    margin-left: 10px;
+}
+
+.arrow.right{
+    margin-right: 10px;
+}
+
+.burger-filters{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0 30px;
+    flex-wrap: wrap;
+}
+
+.burger-filters button{
+    padding: 10px 22px;
+    border-radius: 30px;
+    border: 2px solid #c97b2a;
+    background: transparent;
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.burger-filters button:hover{
+    background: #c97b2a;
+    color: #fff;
+}
+
+.burger-filters button:active{
+    background: #c97b2a;
+    color: #fff;
+    box-shadow: 0 6px 14px rgba(201,123,42,0.4);
+    transform: translateY(-2px);
+}

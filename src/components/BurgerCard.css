@@ -1,0 +1,39 @@
+.burger-card{
+    min-width: 260px;
+    background: #111;
+    border-radius: 16px;
+    overflow: hidden;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.burger-card:hover{
+    transform: scale(1.05);
+}
+
+.burger-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.burger-info{
+    padding: 16px;
+}
+
+.burger-info h3{
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+.burger-info p{
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.burger-info span{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #e63946;
+}

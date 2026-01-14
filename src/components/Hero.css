@@ -1,0 +1,46 @@
+.hero{
+    height: 100vh;
+    background-image: url(../assets/burger-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.hero-content{
+    max-width: 600px;
+    margin-left: 80px;
+    color: #fff;
+}
+
+.hero-content h2{
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+
+.hero-btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ffb703;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.hero-btn:hover{
+    background: #ffa200;
+}
+
+@media (max-width: 500px){
+    .hero-content{
+        margin-left: 20px;
+    }
+}
